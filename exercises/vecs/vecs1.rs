@@ -7,12 +7,13 @@
 //
 // Execute `rustlings hint vecs1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     let a = [10, 20, 30, 40]; // a plain array
-    let v = // TODO: declare your vector here with the macro for vectors
-
+    let v: Vec<i32> = a.iter().cloned().collect();
+    // TODO: declare your vector here with the macro for vectors
+    // Vec::from(a);
+    // a.to_vec();
+    // vec![a[0], a[1], a[2], a[3], a[4]];
     (a, v)
 }
 
