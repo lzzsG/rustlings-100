@@ -1,3 +1,8 @@
+100题版的模板源头在这 [LearningOS/rustlings-100exercises-template](https://github.com/LearningOS/rustlings-100exercises-template)
+
+
+
+---
 ## 2024年自动驾驶OS开发训练营-初阶营第三期
 
 
